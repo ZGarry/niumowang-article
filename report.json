@@ -1,0 +1,23 @@
+{
+  "account": "无往不利",
+  "wechat_id": "wuwangtalk",
+  "author": "挨踢的牛魔王",
+  "updated_at": "2026-10-26",
+  "indexed_articles": 125,
+  "original_selections": 38,
+  "full_history_verified": false,
+  "date_range": [
+    "2018-04-16",
+    "2026-06-03"
+  ],
+  "official_articles_verified": 113,
+  "new_official_articles_found": 2,
+  "archive_ct_dates": 10,
+  "official_ct_dates": 113,
+  "third_party_claimed_dates": 2,
+  "original_missing_references_resolved": 2,
+  "original_selected_article_titles_unmatched": 13,
+  "official_history_error": "ret=-3 / no session",
+  "publication": "Public reading index with original and public archive links; article rights remain with their authors.",
+  "computer_use_used": false
+}
