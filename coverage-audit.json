@@ -1,7 +1,7 @@
 {
   "full_history_verified": false,
   "official_account_total": null,
-  "official_history_error": "ret=-3 / no session",
+  "official_history_error": "authenticated directory: 200013 / freq control; anonymous history: -3 / no session",
   "deduplication": "exact __biz + mid + idx; different idx in a multi-article message are preserved",
   "source_union_count": 303,
   "historical_index": {
@@ -355,5 +355,32 @@
   "unmatched_selection_note": "X109 财富的进化天梯 appears in a separate 欧神文集 archive. Its presence in this WeChat account has not been established, so it is retained as an original selection without inventing a matching WeChat record.",
   "unmatched_selection_evidence": "https://github.com/dikpoorcat/WebCrawler/blob/main/欧神文集下载/欧神文集/2020-05-30_财富的进化天梯%20%23X109.html",
   "next_required_evidence": "A complete authorized official history list, including pagination end and count, is required before claiming zero omissions.",
-  "computer_use_used": false
+  "computer_use_used": false,
+  "authenticated_directory_check": {
+    "qr_login_completed": true,
+    "target_account_confirmed": true,
+    "target_wechat_id": "wuwangtalk",
+    "last_checked_at": "2026-10-26T16:21:06.467249+08:00",
+    "directory_pages_acquired": 0,
+    "new_article_records": 0,
+    "upstream_error_code": 200013,
+    "upstream_error_message": "freq control",
+    "attempts": [
+      {
+        "checked_at": "2026-10-26T14:43:23.290692+08:00",
+        "operation": "read first directory page",
+        "error_code": 200013,
+        "error_message": "freq control"
+      },
+      {
+        "checked_at": "2026-10-26T16:21:06.467249+08:00",
+        "operation": "read first directory page",
+        "error_code": 200013,
+        "error_message": "freq control"
+      }
+    ],
+    "retry_policy": "No further requests after the repeated platform rate-limit response.",
+    "complete_history_obtained": false,
+    "computer_use_used": false
+  }
 }

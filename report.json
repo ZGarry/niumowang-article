@@ -18,7 +18,7 @@
   "original_archive_count": 123,
   "full_history_verified": false,
   "official_account_total": null,
-  "official_history_error": "ret=-3 / no session",
+  "official_history_error": "authenticated directory: 200013 / freq control; anonymous history: -3 / no session",
   "date_range": [
     "2017-07-02",
     "2026-06-03"
@@ -48,5 +48,32 @@
     "2024": 47,
     "2025": 11,
     "2026": 1
+  },
+  "authenticated_directory_check": {
+    "qr_login_completed": true,
+    "target_account_confirmed": true,
+    "target_wechat_id": "wuwangtalk",
+    "last_checked_at": "2026-10-26T16:21:06.467249+08:00",
+    "directory_pages_acquired": 0,
+    "new_article_records": 0,
+    "upstream_error_code": 200013,
+    "upstream_error_message": "freq control",
+    "attempts": [
+      {
+        "checked_at": "2026-10-26T14:43:23.290692+08:00",
+        "operation": "read first directory page",
+        "error_code": 200013,
+        "error_message": "freq control"
+      },
+      {
+        "checked_at": "2026-10-26T16:21:06.467249+08:00",
+        "operation": "read first directory page",
+        "error_code": 200013,
+        "error_message": "freq control"
+      }
+    ],
+    "retry_policy": "No further requests after the repeated platform rate-limit response.",
+    "complete_history_obtained": false,
+    "computer_use_used": false
   }
 }
